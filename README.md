@@ -2,18 +2,22 @@
 
 [![test](https://github.com/Npaintrobo/robosys2023/actions/workflows/test.yml/badge.svg)](https://github.com/Npaintrobo/robosys2023/actions/workflows/test.yml)
 
+## プログラムについて
+
 標準入力から読み込んだ数字を足す.
 
 ## インストール方法
 
-このリポジトリーをクローンしてください.
-```bash
-git clone https://github.com/Npaintrobo/robosys2023.git
+このリポジトリーを下記のようにクローンし、plusというファイルに対して実行権限を与えてください.
+```
+$ git clone https://github.com/Npaintrobo/robosys2023.git
+$ cd robosys2023
+$ chmod +x plus
 ```
 
 ## 使い方
 
-```bash
+```
 $ seq 5 | ./plus
 15
 ```
