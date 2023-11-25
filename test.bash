@@ -1,4 +1,4 @@
-#!/bin/bash -xv
+#!/bin/bash
 #SPDX-FileCopyrightText: 2023 Shinnosuke Nonaka 
 #SPDX-License-Identifier: BSD-3-Clause
 ng () {
