@@ -7,7 +7,7 @@
 ## インストール方法
 
 このリポジトリーをクローンしてください.
-```
+```bash
 git clone https://github.com/Npaintrobo/robosys2023.git
 ```
 
