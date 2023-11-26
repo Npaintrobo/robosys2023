@@ -20,6 +20,7 @@ $ chmod +x plus
 ```
 $ seq 5 | ./plus
 15
+
 $ seq 5 10 | ./plus
 45
 ```
