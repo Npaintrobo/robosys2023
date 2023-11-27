@@ -7,6 +7,9 @@ ans = 0
 count = 0
 
 for line in sys.stdin:
+    line = line.strip()
+    if not line:
+        continue 
     try:
         ans += int(line)
     except:
@@ -14,5 +17,6 @@ for line in sys.stdin:
     finally:
     	count += 1
 
-print(ans)
-print(ans/count)
+if count > 0:
+    print(ans)
+    print(ans/count)
