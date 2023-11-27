@@ -3,6 +3,7 @@
 #SPDX-License-Identifier: BSD-3-Clause
 import sys
 
+<<<<<<< HEAD
 ans = 0 #もともと0.0だったものを0に変更
 
 for line in sys.stdin:
@@ -10,5 +11,22 @@ for line in sys.stdin:
         ans += int(line)    #intは文字列を整数に(失敗すると例外発生)
     except:
          ans += float(line)
+=======
+ans = 0
+count = 0
+>>>>>>> dev
 
-print(ans)
+for line in sys.stdin:
+    line = line.strip()
+    if not line:
+        continue 
+    try:
+        ans += int(line)
+    except:
+        ans += float(line)
+    finally:
+    	count += 1
+
+if count > 0:
+    print(ans)
+    print(ans/count)
