@@ -20,20 +20,8 @@ res=0
   
     
   ### STRANGE INPUT ###
-<<<<<<< HEAD
-  out=$(echo あ | ./plus) 
-  [ "$?" = 1 ]       ng ${LINENO}
-  [ "${out}" = "" ]  ng ${LINENO}
-   
-  out=$(echo | ./plus) #空文字
-  [ "$?" = 1 ]       ng ${LINENO}
-  [ "${out}" = "" ] || ng ${LINENO}
-  
-    　 
-=======
   out=$(echo | ./plus)
   [ "${out}" = "" ] || ng ${LINENO}
     
->>>>>>> dev
 [ "$res" = 0 ] && echo OK
   exit $res
