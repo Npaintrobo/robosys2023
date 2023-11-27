@@ -25,7 +25,6 @@ $ seq 5 | ./plus
 $ seq 5 10 | ./plus
 45
 7.5
-
 ```
 
 ## 必要なソフトウェア
@@ -40,6 +39,6 @@ $ seq 5 10 | ./plus
 ## 著作権・ライセンス
 
 * このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます．
-* このパッケージのコードは，下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを参考にし, 自身の著作としたものです．
+* このパッケージのコードは，下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを参考に作成し, 自身の著作としたものです．
     * [ryuichiueda/my_slides robosys_2022](https://github.com/ryuichiueda/my_slides/tree/master/robosys_2022)
 * © 2023 Shinnosuke Nonaka
