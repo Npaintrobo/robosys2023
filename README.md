@@ -8,11 +8,11 @@
 
 ## インストール方法
 
-このリポジトリーを下記のようにクローンし、plusというファイルに対して実行権限を与えてください.
+このリポジトリーを下記のようにクローンしてください.
 ```
+
 $ git clone https://github.com/Npaintrobo/robosys2023.git
-$ cd robosys2023
-$ chmod +x plus
+
 ```
 
 ## 使い方
